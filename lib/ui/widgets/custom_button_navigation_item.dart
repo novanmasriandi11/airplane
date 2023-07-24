@@ -16,8 +16,8 @@ class CustomButtonNavigationItem extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
-          width: 30,
-          height: 30,
+          width: 24,
+          height: 24,
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage(imageUrl),

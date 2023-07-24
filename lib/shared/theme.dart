@@ -11,6 +11,7 @@ Color greyColor = const Color(0xff9698A9);
 Color greenColor = const Color(0xff0EC3AE);
 Color redColor = const Color(0xffEB70A5);
 Color whitebackgroundColor = const Color(0xffFAFAFA);
+Color aliceBlueBackgroundColor = const Color(0xffECF2FF);
 Color inactiveColor = const Color(0xffDBD7EC);
 Color customTransparent = Colors.transparent;
 
