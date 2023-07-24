@@ -102,8 +102,10 @@ class HomePage extends StatelessWidget {
           top: 30,
           left: defaultMargin,
           right: defaultMargin,
+          bottom: 100,
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               'New This Year',
@@ -112,7 +114,36 @@ class HomePage extends StatelessWidget {
                 fontWeight: semiBold,
               ),
             ),
-            const DestinationTile(),
+            const DestinationTile(
+              name: 'Dubrovnik West Harbour',
+              city: 'Croatia',
+              imageUrl: 'assets/image_destination_7.png',
+              rating: 4.0,
+            ),
+            const DestinationTile(
+              name: 'Tokyo Tower',
+              city: 'Japan',
+              imageUrl: 'assets/image_destination_8.png',
+              rating: 4.8,
+            ),
+            const DestinationTile(
+              name: 'Senbon Torii',
+              city: 'Japan',
+              imageUrl: 'assets/image_destination_9.png',
+              rating: 4.8,
+            ),
+            const DestinationTile(
+              name: 'Iguazu Falls',
+              city: 'Brazil',
+              imageUrl: 'assets/image_destination_10.png',
+              rating: 4.9,
+            ),
+            const DestinationTile(
+              name: 'Plönlein',
+              city: 'Germany',
+              imageUrl: 'assets/image_destination_11.png',
+              rating: 4.3,
+            ),
           ],
         ),
       );

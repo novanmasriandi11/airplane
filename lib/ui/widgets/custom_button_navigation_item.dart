@@ -15,14 +15,11 @@ class CustomButtonNavigationItem extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Container(
+        const SizedBox(),
+        Image.asset(
+          imageUrl,
           width: 24,
           height: 24,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(imageUrl),
-            ),
-          ),
         ),
         Container(
           width: 30,
